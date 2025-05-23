@@ -1,5 +1,12 @@
-# Vue 3 + Vite
+# Transición de Diseño a Desarrollo con Web Components
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Este proyecto fue desarrollado como una actividad práctica para aplicar **Web Components** utilizando **Vue 3** y **Vite**. El objetivo principal fue simular la transición del diseño al desarrollo de una ruta roja, permitiendo pasar de maquetas visuales a componentes funcionales y reutilizables.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## 🛠 Tecnologías utilizadas
+[Vue 3] (https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+[Vite](https://vitejs.dev/)
+
+
+## 📦 Instalación
+npm install
+npm run dev
