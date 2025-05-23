@@ -1,0 +1,163 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Layout general */
+.app {
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+.header {
+  width: 100%;
+  height: 13rem;          
+  background-color: #18305B;
+}
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  margin-top: -6rem;/* desplaza el main-card hacia arriba */
+  padding-bottom: 2.5rem; 
+  position: relative;
+  z-index: 10;
+}
+
+/* MainCard */
+.main-card {
+  background: #ffffff;
+  border-radius: 1rem; 
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  text-align: center;
+  margin: 0 auto 2.5rem;  
+  max-width: 40rem;      
+}
+
+.main-card h1 {
+  color: #18305B;
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+}
+
+.main-card p {
+  color: #2A3651;
+  font-size: 1.125rem;
+  margin-bottom: 1.5rem;
+}
+
+.main-card .btn {
+  background-color: #3260A8;
+  color: #ffffff;
+  font-weight: 500;
+  padding: 0.5rem 1.75rem;
+  border: none;
+  border-radius: 9999px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.main-card .btn:hover {
+  background-color: #204580;
+}
+
+/* FeaturesGrid y FeatureCard */
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.feature-card {
+  background: #EAF2FF;
+  border-radius: 1rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  padding: 1.75rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-container {
+  background: #18305B;
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+
+.feature-card h2 {
+  color: #18305B;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.feature-card p {
+  color: #253053;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.icon-container img {
+  width: 2rem;   /* O el tamaño que prefieras */
+  height: 2rem;
+  display: block;
+}
+
+
+
+/* elizabeth */
+
+
+/*<style scoped>*/
+.main-content {
+  padding: 1rem;
+  text-align: center;
+}
+
+.videos-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+@media (min-width: 768px) {
+  .videos-container {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+.items-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .items-container {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+.lecturas-section,
+.sesiones-section {
+  margin-top: 2rem;
+}
