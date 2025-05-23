@@ -13,5 +13,5 @@ El objetivo principal fue simular la transición del diseño al desarrollo de un
 ```bash
 npm install
 npm run dev
-
+```
 Autores: Ericka González Romero, Elizabeth Hernandez Pardo
